@@ -1,0 +1,19 @@
+Python_Basics/PythonFundamentals.py
+  s_61180d2a618307::t_8869041b35e51f 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "37fc7efe5e86bb016e921ddcb80f109b1b165f9e",
+  "prompts": {},
+  "sessions": {
+    "s_61180d2a618307": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "f56f8e1f-a2b4-493b-b017-0a2cbe4a49e1",
+        "model": "us.anthropic.claude-sonnet-4-20250514-v1:0"
+      },
+      "human_author": "sobhavesh <bhavesh.soni@coupa.com>"
+    }
+  }
+}
