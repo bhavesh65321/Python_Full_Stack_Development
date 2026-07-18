@@ -246,14 +246,99 @@ A= "abcdef"
 #len()
 #replace()
 #split()
-
-A = "My name is Suresh" 
+#strip()
+# A = " My name is Suresh      " 
+# print(len(A))
 # B = A.replace("Suresh","Ramesh")
 
 # print(B)
 # print(A)
-B = A.split(" ")
-print(B)
+# B = A.split(" ")
+# print(B)
+
+# print(A.strip())
+# b = A.strip()
+# print(len(b))
+
+
+"""
+Python Operator
+1. Arithmetic operators (+,-,*,**,/,//(floor divison), %)
+2. Assigment operators (=)
+3. Ternary Operator 
+4. Comparison Operator
+5. Logical operator (and, or and not)  && || !
+6. Identity Operator (is , is not)
+7. Membership Operator (in , not in)
+8. Bitwise Operator (&,|,^) ##pending
+9. Operator Precedence ## pending to next 
+"""
+# print(15/4)
+# print(15//4)
+# print(4*2)
+# print(4**2)
+# x = 20
+# x = x + 10 # x += 10 (x = x+10)
+# y = y - 10 # y -= 10
+
+# x = 4
+
+# y = "ans" if x > 5 else "wrong ans" ##short hand if else
+
+# print(y)
+
+# a = 10
+# b = 6
+
+# if not(a > 4 or a < 7):
+#     print("condition satisfied",a)
+# else:
+#     print("condition not satisfied", a)   
+# 
+# 
+
+# a = 5
+# b = 5
+
+# if a is b:
+#     print("condition satisfied",a,b)
+# else:
+#     print("condition not satisfied", a,b)  
+
+
+"""
+#conditions (if, else, elif)
+
+"""
+
+a = 30
+b = 20
+
+# if a > b:
+#     print(a," is greater than ", b)
+# elif a == b:
+#     print(a, "equal to",b)
+# else:
+#     print(a, "is not greater than",b)     
+# 
+#Short hand if
+if a > b : print("Hello world")   
+
+#Pass keyword
+
+
+if a > b:
+    pass
+elif a == b:
+    print(a, "equal to",b)
+else:
+    print(a, "is not greater than",b) 
+
+
+
+
+
+
 
 
 
