@@ -1,0 +1,19 @@
+Core_Python/Basic.py
+  s_3f688cae94da89::t_bf060f07510920 314-328,331,335,338-339
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "30c3ec4ce3b602c879b6dc6a6846a75bfb4ad14a",
+  "prompts": {},
+  "sessions": {
+    "s_3f688cae94da89": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b55d838b-efd2-45bc-89b7-417de8ceb05f",
+        "model": "unknown"
+      },
+      "human_author": "sobhavesh <bhavesh.soni@coupa.com>"
+    }
+  }
+}
