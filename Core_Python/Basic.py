@@ -311,29 +311,32 @@ Python Operator
 
 """
 
-a = 30
-b = 20
+# a = 30
+# b = 20
+
+# # if a > b:
+# #     print(a," is greater than ", b)
+# # elif a == b:
+# #     print(a, "equal to",b)
+# # else:
+# #     print(a, "is not greater than",b)     
+# # 
+# #Short hand if
+# if a > b : print("Hello world")   
+
+# #Pass keyword
+
 
 # if a > b:
-#     print(a," is greater than ", b)
+#     pass
 # elif a == b:
 #     print(a, "equal to",b)
 # else:
-#     print(a, "is not greater than",b)     
-# 
-#Short hand if
-if a > b : print("Hello world")   
-
-#Pass keyword
+#     print(a, "is not greater than",b) 
 
 
-if a > b:
-    pass
-elif a == b:
-    print(a, "equal to",b)
-else:
-    print(a, "is not greater than",b) 
-
+"""
+"""
 
 
 
