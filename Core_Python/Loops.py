@@ -58,9 +58,39 @@ upper_limit = len(a)
 # for i in a:
 #     print(i)
 
-print("Please provide input")
-n = int(input())
-print(n)
+# print("Please provide input")
+# n = int(input())
+# print(n)
+
+
+a = ["Apple", "Banana","Cake","Sweets", 1, 2, 9, "Mango", 10.15]
+
+#simple print
+
+# for i in a:  # i is holding value from list
+#     print(i)
+
+i = 0
+j = len(a)
+
+# for i in range(0,j): # i is holding index of the list
+#     print("index number- ", i,"=", a[i])
+
+for i in range(j-1,i-1,-1):
+    print("index number- ", i,"=", a[i])
+
+# give me sum of even number (0-100)
+# give me sum of odd number (50-150)
+# find how many even number is there in the list [2,7,9,11,12,15,19]
+
+
+
+
+
+
+
+
+
 
 
 
