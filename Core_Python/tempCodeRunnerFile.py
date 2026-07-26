@@ -1,3 +1,2 @@
-
-# for i in range(0,j): # i is holding index of the list
-#     print("index number- ", i,"=", a[i])
+print("My Name is : ",ListValue[Name], "My city is : ", ListValue[City], "My class is : ", ListValue[clss])
+    # print("My Full Name is :", ListValue[fName].strip() +" "+ ListValue[lName].strip())
