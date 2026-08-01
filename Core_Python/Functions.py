@@ -80,34 +80,94 @@ x = a
 
 # # Dictionary
 
-a = {
-    'fName': 'Bhavesh ', 
- #key      value
- 'lName': 'Soni', 
- 'Name': 'Bhavesh', 
- 'City': 'Sanchore', 
- 'clss': 8, 
- 'ED': 'UG', 
- 'Ctry': 'India',
- '1' : "Test",
- }
+# a = {
+#     'fName': 'Bhavesh ', 
+#  #key      value
+#  'lName': 'Soni', 
+#  'Name': 'Bhavesh', 
+#  'City': 'Sanchore', 
+#  'clss': 8, 
+#  'ED': 'UG', 
+#  'Ctry': 'India',
+#  '1' : "Test",
+#  }
 
 
-ColorOfCar = {
-        "Red": "34X30",
-    "White": "324xv"
-}
+# ColorOfCar = {
+#         "Red": "34X30",
+#     "White": "324xv"
+# }
 
-print("Yes we find out", ColorOfCar["Red"])
+# print("Yes we find out", ColorOfCar["Red"])
 
-A = ["Red","Yellow","Orange"]
-for i in range(len(A)):
-    print(i,A[i])
-    if A[i] == "Orange":
-        print("Yes, we find the color")
-        break
-    else:
-        print("We didn't able to find")
+# A = ["Red","Yellow","Orange"]
+# for i in range(len(A)):
+#     print(i,A[i])
+#     if A[i] == "Orange":
+#         print("Yes, we find the color")
+#         break
+#     else:
+#         print("We didn't able to find")
+
+
+# ### Scope Concept - local Scope and Global Scope
+# x = 300 #Global 
+# def myMath(): #functions and Methods are same
+#     global y
+#     y = 400 #Local variable
+#     print(x+y)
+#     def myInnerMath():
+#         z = 120
+#         print("After this executed",x*y*z)
+#         def mydepathInnerMath():
+#             print("yes")
+#         mydepathInnerMath()
+#         print("fun 3 execution completed")
+#     print("Before myInnerMath")
+#     myInnerMath()
+#     # print(y)
+
+# myMath()
+# print(y)
+
+
+# function 1 - myMath -> myMath excution started -> whenever we hit line 123, then myMath execution get stopped it will wait until myInnerMath or child function execution is not getting completed
+# then once that execution completed then again pending fun execution get started
+
+##Lambda function - Lambda function is small anonymous functions - IMP
+## In python, anonymouns function is a function that is defined without a name. while normal functions are defined using the def keyword in python
+##anonymous function are define using the lambda keyword
+
+##Syntax Lambda arugments : experssions
+
+# def myMath(a,b):
+#     print(a+b)
+
+x = lambda a,b : a + b
+
+
+### private protected public 
+
+def myMathOperation(a,b,c):          #this void function - means not returning anything
+    return  lambda a,b,c : a + b + c
+    y = lambda a,b,c : a*b*c
+    z = lambda a,b : a/b
+    print(x,y,z)
+
+ReturnValue = myMathOperation(10,20,30)
+ReturnValue = myMathOperation(10,20,10)
+
+print(ReturnValue)
+
+
+## write lambda function for all mathematices operation - in nested form 
+## print square of each number from 1 to 100 using lambda func
+
+
+
+
+
+
 
         
 
