@@ -143,25 +143,57 @@ x = a
 # def myMath(a,b):
 #     print(a+b)
 
-x = lambda a,b : a + b
+# x = lambda a,b : a + b
 
 
 ### private protected public 
 
-def myMathOperation(a,b,c):          #this void function - means not returning anything
-    return  lambda a,b,c : a + b + c
-    y = lambda a,b,c : a*b*c
-    z = lambda a,b : a/b
-    print(x,y,z)
+# def myMathOperation(a,b,c):          #this void function - means not returning anything
+#     return  lambda a,b,c : a + b + c
+#     y = lambda a,b,c : a*b*c
+#     z = lambda a,b : a/b
+#     print(x,y,z)
 
-ReturnValue = myMathOperation(10,20,30)
-ReturnValue = myMathOperation(10,20,10)
+# ReturnValue = myMathOperation(10,20,30)
+# ReturnValue = myMathOperation(10,20,10)
 
-print(ReturnValue)
+# print(ReturnValue)
 
 
 ## write lambda function for all mathematices operation - in nested form 
 ## print square of each number from 1 to 100 using lambda func
+
+###taking input from user ##
+
+# print("give user input")
+# a = input()
+
+import random
+
+def guess_the_number():
+    print("Welcome to the Guess the Number Game!")
+    number_to_guess = random.randint(1,100)
+    attempt = 0
+
+    while True:
+        try:
+            guess = int(input("Guess a number between 1 to 100: "))
+            attempt += 1
+            if guess < number_to_guess:
+                print("Too low! Try again.")
+            elif guess > number_to_guess:
+                print("Too high! Try again.")
+            else:
+                test = "Congrats! You got it in {} attempts!"
+                print(test.format(attempt))
+                print("The number is :",number_to_guess)
+                break
+        except ValueError:
+            print("Please enter a valid integer.")
+
+guess_the_number()
+
+
 
 
 

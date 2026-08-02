@@ -1,1 +1,1 @@
-print(ReturnValue)
+print("this input come from user", a)
