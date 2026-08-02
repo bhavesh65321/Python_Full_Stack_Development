@@ -1,0 +1,22 @@
+Core_Python/Functions.py
+  h_187d559c93e780 146,151-155,157-158,160,166-197
+Core_Python/tempCodeRunnerFile.py
+  h_187d559c93e780 1
+Projects/guess_the_number.py
+  h_187d559c93e780 1-26
+Projects/guess_the_number_tournaments.py
+  h_187d559c93e780 1-59
+Projects/tempCodeRunnerFile.py
+  h_187d559c93e780 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "2fa35a5e30ecc4f1c43530822490b5b9dfd8c409",
+  "prompts": {},
+  "humans": {
+    "h_187d559c93e780": {
+      "author": "sobhavesh <bhavesh.soni@coupa.com>"
+    }
+  }
+}
