@@ -1,1 +1,1 @@
-print("this input come from user", a)
+n = int(input("Give input here: "))
