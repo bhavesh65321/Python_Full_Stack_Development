@@ -101,4 +101,4 @@ def play_advanced_tournament():
     print("=" * 60)
 
 
-play_advanced_tournament()
+t = play_advanced_tournament()
