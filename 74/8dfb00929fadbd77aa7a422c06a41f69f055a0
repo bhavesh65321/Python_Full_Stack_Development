@@ -1,0 +1,19 @@
+Oops/polymorphism.py
+  h_187d559c93e780 1-23
+Oops/encapsulation.py
+  h_187d559c93e780 1-79
+Oops/Inheritance.py
+  h_187d559c93e780 3-8,12,18-20,22-27,32,37-38
+  h_187d559c93e780 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "748dfb00929fadbd77aa7a422c06a41f69f055a0",
+  "prompts": {},
+  "humans": {
+    "h_187d559c93e780": {
+      "author": "sobhavesh <bhavesh.soni@coupa.com>"
+    }
+  }
+}
